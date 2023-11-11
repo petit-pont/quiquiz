@@ -1,0 +1,171 @@
+@font-face {
+    font-family: LinLibertine;
+    src: url("assets/fonts/LinLibertine_R.ttf");
+}
+
+
+#main-view {
+    background-image: url("assets/images/background.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-family: LinLibertine;
+    /* z-index: -2; */
+}
+
+#container-question {
+    position: relative;
+    width: 100%;
+    max-width: 40rem;
+    /* height: 30%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-question-count {
+    /* Astuce pour avoir une div avec image de fond qui s'adapte à la taille de la div mais avec une div qui a une taille max*/
+    /* background-image: url("/le-grand-test-du-mana/assets/artworks/question-count-banner.png"); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    width:100%;
+    /* max-width: 30rem; */
+    /* height: 40%; */
+    /* padding-top: 32.43%; height/width/ x 100 */
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* position: relative; */
+    /* display: inline-block; */
+    z-index: 1;
+}
+
+#question-count-frame {
+    position: relative;
+}
+
+#container-question-count img {
+    width: 100%;
+    display: block;
+    /* height: 100%; */
+}
+
+#question-count {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+#container-arrows-and-question {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.arrow {
+    /* height: 20%; */
+    /* flex-shrink: 1; */
+    width: 10%;
+    background-image: url("assets/images/arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#arrow-left {
+    transform: scaleX(-1);
+}
+
+.disabled-arrow {
+    background-image: url("assets/images/arrow-disabled.png");
+}
+
+#container-question-frame {
+    border: 2rem solid transparent;
+    border-top: none;
+    border-bottom: 1rem solid transparent;
+    border-image-source: url("assets/images/frame-question.png");
+    border-image-slice: 15% 28% 18% 25%;
+    border-image-repeat: repeat;
+
+    background-color: #c6aa8c;
+    background-clip: padding-box;
+    /* height: 90%; */
+    width: 80%;
+    min-height: 5rem;
+    /* flex-basis: 85%; */
+    /* max-width: 25rem; */
+    padding-top: 1.25rem;
+
+    font-weight: bold;
+    transform: translateY(-1rem);
+}
+
+#quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-choices {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    transform: translateY(-1rem);
+}
+
+.choice-text {
+    flex-grow: 1;
+
+    /* Sliced border set up */
+    border: 1rem solid transparent;
+    border-image-source: url("assets/images/frame-choice.png");
+    border-image-slice: 22.29% 30.36% 23.87% 25.69%;
+    border-image-repeat: stretch;
+    
+    background-color: #eadebc;
+    background-clip: padding-box;
+    /* font-size: small; */
+}
+
+.selected {
+    border-image-source: url("assets/images/frame-choice-selected.png");
+    border-image-slice: 25% 30% 25% 25%;
+    background-color: #cff494;
+}
+
+
+/* LOADING SCREEN */
+#loading-screen {
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+#floating-wizard {
+    width: 50%;
+    display: block;
+    margin: 50% auto;
+    animation: floating-wizard 2s infinite ease-in-out;
+}
+
+@keyframes floating-wizard {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(1rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

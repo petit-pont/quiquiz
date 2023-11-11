@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiquiz - Le Grand Test du Mana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../components/navbar.js"></script>
+</head>
+<body>
+    <navbar-component></navbar-component>
+    <div id="main-view">
+        <div id="loading-screen">
+            <img id="floating-wizard" src="assets/images/wizard-floating.png" alt="floating-wizard">
+        </div>
+        <div id="quiz" class="hidden">
+            <div id="container-question">
+                <div id="container-question-count">
+                    <img src="assets/images/question-count-banner-1.png">
+                    <div id="question-count-frame">
+                        <img src="assets/images/question-count-banner-2.png">
+                        <p id="question-count">Question 20 sur 20</p>
+                    </div>
+                </div>
+                <div id="container-arrows-and-question">
+                    <div class="arrow disabled" id="arrow-left"></div>
+                    <div id="container-question-frame">
+                        <p id="question">Question text Question text Question text Question text Question text Question text Question text</p>
+                    </div>
+                    <div class="arrow disabled" id="arrow-right"></div>
+                </div>
+            </div>
+            <div id="container-choices">
+                <div class="choice-text" data-number="1"></div>
+                <div class="choice-text" data-number="2"></div>
+                <div class="choice-text" data-number="3"></div>
+                <div class="choice-text selected" data-number="4"></div>
+                <div class="choice-text" data-number="5"></div>
+                <div class="choice-text" data-number="6"></div>
+            </div>
+        </div>
+        <div id="confirm-message">
+            
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

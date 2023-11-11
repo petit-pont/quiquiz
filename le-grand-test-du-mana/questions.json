@@ -1,0 +1,1322 @@
+[
+    {
+        "questionId": 1,
+        "questionText": "Lors d'une de vos aventures dans la jungle, un affreux serpent vous mord au mollet.",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Vous assimilez instantanément le venin et laissez le serpent s'en aller.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Il se brise les crocs contre votre peau de métal.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Vous vous allongez au sol en espérant survivre, et pardonnez au serpent.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Vous retournez dans le temps et tuez le serpent avant qu'il ne vous croise.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Vous tirez au revolver sur le serpent puis avancez avec votre jambe morte.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Le venin vous fait du bien. Vous étranglez tout de même le serpent.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 2,
+        "questionText": "Vous êtes au musée.",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Vous parlez aux statues en pensant qu'elles vont vous répondre.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Vous faites toute la visite dans l'ordre prévu.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Où se trouvent les trucs magiques et les artefacts maudits?",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Ça vous ennuie terriblement, vous faites les cent pas près d'un radiateur.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Il parait qu'il y a des momies dans l'aile de l’Égypte ancienne!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Les cadres vous passionnent plus que les peintures.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 3,
+        "questionText": "Trazagul le dieu mi-homme mi-centaure vous a enfermé·e dans une dimension maléfique pendant sept cents ans.",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Vous êtes patient·e. Chaque seconde vous rend un peu plus fort·e.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Vous êtes vert·e de rage! ARRGGGGGH!!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Sept cents ans enfermé·e à la maison?? PFFF, la barbe!!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Vous en profitez pour entrer en transe et discuter un peu avec vos ancêtres.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Le temps est illusion, cela n'a aucune importance. Vous attendez.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Vous déformez l'espace pour échanger votre place avec les enfants de Trazagul, puis, une fois à l'extérieur, retrouvez ce dernier. Vous vous métamorphosez pour vous faire passer pour son cadet et échangez discrètement le contenu de sa bouteille de vin préférée par du pipi semi-empoisonné.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 4,
+        "questionText": "Au volant de votre nouvelle voiture, vous pensez à votre animal de compagnie",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Un poisson rouge au regard perçant.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Plein de mini serpents.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Un p'tit dino.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Une sangsue très affectueuse.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Un chat étrangement musclé.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Une pierre.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 5,
+        "questionText": "Lors d'un concours vous avez gagné le droit de remplir votre caddie de supermarché des objets de votre choix et de sortir sans payer. Mais vous n'avez que dix minutes!! Vers quel rayon vous dirigez-vous?",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Les couteaux.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Les gâteaux.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Vous prenez juste une immense pizza aux piments.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Vous êtes tétanisé·e et ne bougez pas.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Vous aviez déjà calculé l'itinéraire optimal deux semaines en avance.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Vous n'allez pas au supermarché, c'est un endroit affreux.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 6,
+        "questionText": "Dans le seigneur des anneaux vous êtes plutôt :",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Un brave guerrier Urukaï.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Gandalf, le méchant magicien.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Frodon, le petit lutin amusant.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Legolas, l'elfe à la peau verte.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "L'anneau unique.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Aragorn, le terrifiant roi des spectres.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 7,
+        "questionText": "Avec votre superbe époux·se vous planifiez vos prochaines vacances de cinq semaines :",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Un stage au cœur de la forêt pour apprendre le langage des arbres.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Des randonnées dans un volcan en activité. Vous voulez toucher la lave!!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Le concours du plus beau château de sable de Knokke-le-Zoute. Le votre sera EXTRÊME!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Rester debout au milieu du désert, pour essayer.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Remporter le record de la plus longue période de temps enfermés à deux dans un grand sac en plastique rempli d'asticots.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Retourner à votre résidence secondaire à la campagne, goûter au charme rustique des paysans, manger du fromage blanc, fumer la pipe, dormir paisiblement près du lac, faire quelques parties de chasse avec Fido, votre épagneul tibétain... Enfin bon, simplement souffler un peu quoi!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 8,
+        "questionText": "Vous fondez simplement une \"secte\".",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "C'est très sincère, l'entraide nous permettra de mieux vivre ensemble!!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Vos fidèles sont immortels, le sang coulera pour Condra la déesse-cheval!!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Vous passez beaucoup de temps à écouter Bob Marley et à \"recentrer vos énergies\"!!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Chacun de vos sbires a la même valeur : Ils sont à votre service éternel!!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Personne ne comprend votre charabia, et c'est pour ça qu'on vous adule!!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "En fait, ce n'est pas vous qui l'avez fondée. Vous êtes juste dedans.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 9,
+        "questionText": "1973, en pleine guerre du Viêt Nam. Alors que vous vous repliez, Manny, votre frère d'armes, se fait toucher par un tir d'obus aveugle.",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Un mort de plus, vous aurez peut-être le temps de pleurer en continuant de courir.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Vous détestez la guerre!!!! ARGGGHHH!!!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Vous avez déjà oublié le nom de ce type.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Ces salauds connaissent bien leur fichue brousse, vous les admirez presque.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "L'odeur du sang brûlé éveille en vous un irrésistible désir... À nouveau!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Cela faisait partie de votre plan. L'étape suivante va surprendre tout le monde.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 10,
+        "questionText": "Pardon mais j'ai oublié le prénom de votre fille...",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Lilliana",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Tamiyo",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Karn",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Nissa",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Chandra",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Gidéonne",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 11,
+        "questionText": "C'est la nuit, il pleut à verse. Personne ne vous croira innocent·e quand ils trouveront le cadavre...",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Vous n'avez pas plus peur de la prison que du monde autour de cette dernière.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Il n'y aura aucune preuve!! Vous allez simplement détruire l'intégralité du corps.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "La justice fera la part des choses. Vous devez ramener cette personne à sa famille.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Ce n'est qu'un contre-temps, chaque pion retrouvera bientôt sa place sur l'échiquier.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Le monde des humains ne peut pas vous comprendre. Vous décidez de vivre dans les bois pour toujours.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Votre plan est limpide : accrocher un fil à chaque membre du corps, et à l'aide d'un ingénieux système de poulies et d'un simple enregistreur, il n'y aura simplement pas eu de mort cette nuit...",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 12,
+        "questionText": "Vous avez choisi l'option \"expression corporelle\" au lycée. Quel est votre rôle dans le spectacle de fin d'année?",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Une femme d'affaire puissante et manipulatrice.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Un aigle immense et victorieux.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Un roi gigantesque et cannibale.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Un scientifique brillant et fou.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Une exploratrice spatiale silencieuse et mortelle.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Un·e figurant·e banal·e. Vous portez vos vrais vêtements.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 13,
+        "questionText": "Aux commandes de votre capsule cosmique de voyage super-luminique, vous faites la file dans l'embouteillage stellaire qui conduit à la station Zeta Betelgueuse 999.",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "La situation est insupportable, vous faites exploser votre capsule.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Vous passez le temps en calculant avec précision votre heure d'arrivée.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Vous ne ressentez rien dans cette situation.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Vous détestez attendre!! Vous tirez au laser sur tous les autres vaisseaux.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "La vie n'est pas une compétition, frère. On a tout le temps.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Vous laissez passer cette personne qui a l'air pressée. Votre femme accouchera quoi qu'il arrive, et vous arriverez toujours à l'heure quand il s'agira d'aimer votre entourage.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 14,
+        "questionText": "C'est l'heure de manger!!",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "ENFIN!!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Super.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Je viens.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Je viendrai plus tard.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Je ne viendrai pas aujourd'hui.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Je ne mange jamais.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 15,
+        "questionText": "Vous recevez un doigt coupé par la poste. Votre petit copain a été enlevé par la mafia.",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Vous allez chercher les chiens. La chasse commence.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Vous récupérez la bague sur le bout de doigt et passez à autre chose.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Vous y allez seul·e, sans arme, mais résolument déterminé·e.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Vous regardez le doigt pendant deux heures. Ensuite, votre plan en cinq parties est prêt.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Vous empoisonnez l'eau de tout leur quartier. Tant pis pour votre copain, la vengeance prime.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "De désespoir, vous cassez tout chez vous.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 16,
+        "questionText": "Quelle est la couleur de votre voiture?",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Or",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Brun",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Mauve",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Orange",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Gris",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Elle change de couleur en fonction du moment de la journée.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 17,
+        "questionText": "Votre florissante startup agro-alimentaire lance un nouveau Soda, mais lequel?",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Fuzz-de-Wizz, \"ça pétille et ça croustille!\"",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Bio Epura, de l'Aloe Vera spongieux dans des canettes en carton recyclable.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Mysterio, \"la boisson des curieux et des curieuses!\"",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "FLY'Z, \"envolez vous vers la nouvelle génération de sodas!\"",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Water Normal, de l'eau normale dans une bouteille sans étiquette.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "\"The Blood\", du jus de pamplemousse avec un ingrédient \"très spécial\".",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 18,
+        "questionText": "Quel est le pire fléau?",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "La bêtise",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "L'injustice",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "La maladie",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Le bonheur des autres",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "L'obsolescence programmée",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "ILS ONT CHANGÉ L'HEURE DE MA SÉRIE À LA TÉLÉVISION!! DU COUP J'AI RATÉ LES CINQ PREMIÈRES MINUTES ET JE NE SAIS PAS POURQUOI NATACHA EN VEUT À FREDERICO!! ET TOUT CELA ALORS QU'ILS AVAIENT PRÉVUS DE VIVRE ENSEMBLE DANS LEUR VILLA À LA CÔTE!! C'EST DE NOUVEAU LEUR NEVEU MATT QUI VA DEVOIR S'OCCUPER TEMPORAIREMENT DE L'ENTREPRISE FAMILIALE!! ÇA ME REND DINGUE!! ÇA ME REND DIIIIIIIINGUUUEEE!!! ARGRGGGGHHHH!!!!!!!!!!!!!!!!!!!!!",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 19,
+        "questionText": "Votre signe astrologique please?",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Verseau ou Poisson",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Lion ou Gémeaux",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Cancer ou Scorpion",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Bélier ou Taureau",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Sagittaire ou Capricorne",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Balance, Vierge ou autre",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    },
+    {
+        "questionId": 20,
+        "questionText": "Dernière question : Vous voyagez de nuit dans votre carrosse. Soudain, votre cocher fait s'arrêter le véhicule. C'est une embuscade!! Vous paniquez complètement, les brigands risquent de trouver votre fabuleux trésor, caché sous votre siège.",
+        "choices": [
+            {
+                "choiceId": 1,
+                "choiceText": "Vous poignardez votre cocher avec votre mini-dague. Peut-être les voleurs vous prendront-ils pour l'un des leurs?",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 2,
+                "choiceText": "Vous soupirez et haussez les épaules en souriant. Ce n'est que de l'argent! Une flèche vous transperce ensuite.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 3,
+                "choiceText": "Vous mangez le trésor. Il ne sera pour personne!! Cela vous fait transpirer.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 4,
+                "choiceText": "Ce coffre a plus d'importance que votre propre vie. Le stress vous fait tomber dans les pommes instantanément.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 5,
+                "choiceText": "Le mélange de peur et de haine vous fait cligner des yeux et grincer des dents à toute vitesse.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            },
+            {
+                "choiceId": 6,
+                "choiceText": "Vous êtes très serein·ne. Vous sortez calmement pour discuter avec les malandrins. Un terrain d'entente est trouvé, au prix des quelques pièces d'or que vous aviez sur vous. Les brigands ne trouvent pas le trésor. Vous rentrez dans votre immense citadelle de marbre. Plus tard, vous pensez à leur mode de vie sauvage et exotique et vous soupirez doucement de désir.",
+                "whiteValue": 0,
+                "blackValue": 0,
+                "blueValue": 0,
+                "redValue": 0,
+                "greenValue": 0,
+                "colorlessValue": 0
+            }
+        ]
+    }
+]
