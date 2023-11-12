@@ -2,7 +2,7 @@ const loadingScreen = document.getElementById("loading-screen");
 const quiz = document.getElementById("quiz");
 const questionCount = document.getElementById("question-count");
 const question = document.getElementById("question");
-const choices = Array.from(document.getElementsByClassName("choice-text"));
+const choicesList = document.getElementById("container-choices");
 const arrowLeft = document.getElementById("arrow-left");
 const arrowRight = document.getElementById("arrow-right");
 
@@ -11,32 +11,9 @@ let playerChoices = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 let currentQuestion = {};
 let acceptingAnswer = false;
 
-// TODO : Recréer la liste des choix à partir de zéro à chaque fois qu'on affiche une nouvelle question. 
-choices.forEach(choice => {
-    choice.addEventListener("click", e => {
-        if (!acceptingAnswer) return;
-        
-        acceptingAnswer = false;
-        const clickedChoice = e.target;
-        const selectedAnswerIndex = clickedChoice.dataset["number"];
-        
-        // Check if it the current question was already answered.
-        if (playerChoices[currentQuestion.questionId - 1] === 0) {
-            playerChoices[currentQuestion.questionId - 1] = selectedAnswerIndex;
-            displayQuestion(currentQuestion.questionId + 1);
-            return;
-        };
-
-        // Otherwise we save the new choice and update visuals.
-        playerChoices[currentQuestion.questionId - 1] = selectedAnswerIndex;
-        updateChoicesFrames();
-        acceptingAnswer = true;
-    })
-});
 
 arrowLeft.addEventListener("click", e => {
     if (arrowLeft.classList.contains("disabled-arrow")) return;
-    // if (!acceptingAnswer) return;
     
     acceptingAnswer = false;
     displayQuestion(currentQuestion.questionId - 1);
@@ -44,15 +21,14 @@ arrowLeft.addEventListener("click", e => {
 
 arrowRight.addEventListener("click", e => {
     if (arrowRight.classList.contains("disabled-arrow")) return;
-    // if (!acceptingAnswer) return;
     
     acceptingAnswer = false;
     displayQuestion(currentQuestion.questionId + 1);
 });
 
+// We load questions and choices from a .json file and start the quiz once the reading-parsing is done.
 fetch("questions.json")
     .then(response => {
-        // console.log(response);
         return response.json();
     })
     .then(loadedQuestions => {
@@ -67,7 +43,6 @@ fetch("questions.json")
 
 
 startQuiz = () => {
-    questionCounter = 0;
     localStorage.removeItem("mana-quiz-choices");
     displayQuestion(1);
     quiz.classList.remove("hidden");
@@ -82,13 +57,40 @@ displayQuestion = (questionId) => {
     }
 
     currentQuestion = questions[questionId - 1];
+    console.log(currentQuestion);
     questionCount.innerText = `Question ${currentQuestion.questionId} sur ${questions.length}`;
-    // console.log(currentQuestion)
     question.innerText = currentQuestion.questionText;
-    choices.forEach(choice => {
-        const number = choice.dataset["number"];
-        choice.innerText = currentQuestion.choices[number - 1].choiceText;
-    });
+
+    // Create choices
+    choicesList.innerHTML = '';
+    for (let i = 0; i < currentQuestion.choices.length; i++) {
+        const newLi = document.createElement('li');
+        newLi.classList.add("choice-text");
+        newLi.dataset.number = i + 1;
+        newLi.innerText = currentQuestion.choices[i].choiceText;
+
+        newLi.addEventListener("click", e => {
+            if (!acceptingAnswer) return;
+            
+            acceptingAnswer = false;
+            const clickedChoice = e.target;
+            const selectedAnswerIndex = clickedChoice.dataset["number"];
+            
+            // Check if it the current question was already answered.
+            if (playerChoices[currentQuestion.questionId - 1] === 0) {
+                playerChoices[currentQuestion.questionId - 1] = selectedAnswerIndex;
+                displayQuestion(currentQuestion.questionId + 1);
+                return;
+            };
+    
+            // Otherwise we save the new choice and update visuals.
+            playerChoices[currentQuestion.questionId - 1] = selectedAnswerIndex;
+            updateChoicesFrames();
+            acceptingAnswer = true;
+        });
+
+        choicesList.appendChild(newLi);
+    }
 
     updateLeftArrow();
     updateRightArrow();
@@ -114,6 +116,8 @@ updateRightArrow = () => {
 };
 
 updateChoicesFrames = () => {
+    const choices = Array.from(document.getElementsByClassName("choice-text"));
+    
     choices.forEach(choice => {
         if (playerChoices[currentQuestion.questionId - 1] === choice.dataset["number"]) {
             choice.classList.add("selected");
