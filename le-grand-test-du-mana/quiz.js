@@ -56,7 +56,7 @@ fetch("questions.json")
     });
 
 
-startQuiz = () => {
+function startQuiz() {
     localStorage.removeItem("mana-quiz-choices");
     displayQuestion(1);
     quizScreen.classList.remove("hidden");
