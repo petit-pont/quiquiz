@@ -41,3 +41,7 @@ navbar-component {
 .hidden {
     display: none;
 }
+
+.clickable:hover {
+cursor: pointer;
+}

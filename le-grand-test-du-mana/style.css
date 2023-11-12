@@ -70,37 +70,37 @@
 }
 
 .arrow {
-    /* height: 20%; */
-    /* flex-shrink: 1; */
     width: 10%;
     background-image: url("assets/images/arrow.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#arrow-left {
+.arrow-left {
     transform: scaleX(-1);
 }
 
-.disabled-arrow {
+.arrow-disabled {
     background-image: url("assets/images/arrow-disabled.png");
 }
 
-#container-question-frame {
+.scroll-frame {
     border: 2rem solid transparent;
-    border-top: none;
-    border-bottom: 1rem solid transparent;
+    border-top: 1.25rem solid transparent;
+    border-bottom: 1.25rem solid transparent;
     border-image-source: url("assets/images/frame-question.png");
     border-image-slice: 15% 28% 18% 25%;
     border-image-repeat: repeat;
-
     background-color: #c6aa8c;
     background-clip: padding-box;
-    /* height: 90%; */
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+#container-question-frame {
+    border-top: none;
     width: 80%;
     min-height: 5rem;
-    /* flex-basis: 85%; */
-    /* max-width: 25rem; */
     padding-top: 1.25rem;
 
     font-weight: bold;
@@ -133,6 +133,7 @@
     background-color: #eadebc;
     background-clip: padding-box;
     /* font-size: small; */
+    text-align: center;
 }
 
 .selected {
@@ -151,11 +152,52 @@
     justify-content: center; */
 }
 
-#floating-wizard {
+#floating-wizard-loader {
     width: 50%;
     display: block;
     margin: 50% auto;
     animation: floating-wizard 2s infinite ease-in-out;
+}
+
+/* CONFIRM SCREEN */
+#confirm-screen {
+    width: 100%;
+    height: 100%;
+}
+
+#confirm-screen-layout {
+    /* display: flex; */
+    width: 100%;
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+#arrow-and-message {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#confirm-message {
+    width: 90%;
+}
+
+#floating-wizard-confirm {
+    width: 8rem;
+    display: block;
+    flex-basis: 100%;
+    margin-left: 5%;
+    animation: floating-wizard 4s infinite ease-in-out;
+}
+
+#confirm-button {
+    z-index: 1;
+    width: 75%;
+    max-width: 25rem;
+    margin: 5rem auto;
+    padding: 0 0.5rem;
 }
 
 @keyframes floating-wizard {
@@ -163,7 +205,7 @@
         transform: translateY(0);
     }
     50% {
-        transform: translateY(1rem);
+        transform: translateY(-1rem);
     }
     100% {
         transform: translateY(0);

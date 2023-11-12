@@ -1,10 +1,13 @@
 const loadingScreen = document.getElementById("loading-screen");
-const quiz = document.getElementById("quiz");
+const quizScreen = document.getElementById("quiz-screen");
 const questionCount = document.getElementById("question-count");
 const question = document.getElementById("question");
 const choicesList = document.getElementById("container-choices");
 const arrowLeft = document.getElementById("arrow-left");
 const arrowRight = document.getElementById("arrow-right");
+const arrowBack = document.getElementById("arrow-back");
+const confirmScreen = document.getElementById("confirm-screen");
+const confirmButton = document.getElementById("confirm-button");
 
 let questions = [];
 let playerChoices = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
@@ -13,17 +16,28 @@ let acceptingAnswer = false;
 
 
 arrowLeft.addEventListener("click", e => {
-    if (arrowLeft.classList.contains("disabled-arrow")) return;
+    if (arrowLeft.classList.contains("arrow-disabled")) return;
     
     acceptingAnswer = false;
     displayQuestion(currentQuestion.questionId - 1);
 });
 
 arrowRight.addEventListener("click", e => {
-    if (arrowRight.classList.contains("disabled-arrow")) return;
+    if (arrowRight.classList.contains("arrow-disabled")) return;
     
     acceptingAnswer = false;
     displayQuestion(currentQuestion.questionId + 1);
+});
+
+arrowBack.addEventListener("click", e => {
+    displayQuestion(currentQuestion.questionId);
+    confirmScreen.classList.add("hidden");
+    quizScreen.classList.remove("hidden");
+})
+
+confirmButton.addEventListener("click", e => {
+    localStorage.setItem("mana-quiz-choices", JSON.stringify(playerChoices));
+    window.location.href = "results.html";
 });
 
 // We load questions and choices from a .json file and start the quiz once the reading-parsing is done.
@@ -45,14 +59,16 @@ fetch("questions.json")
 startQuiz = () => {
     localStorage.removeItem("mana-quiz-choices");
     displayQuestion(1);
-    quiz.classList.remove("hidden");
+    quizScreen.classList.remove("hidden");
     loadingScreen.classList.add("hidden");
+    confirmScreen.classList.add("hidden");
 };
 
 displayQuestion = (questionId) => {
+    // If we are going past the last question we display the confirm screen.
     if (questionId > questions.length) {
-        // TODO: display confirm message
-        localStorage.setItem("mana-quiz-choices", JSON.stringify(playerChoices));
+        confirmScreen.classList.remove("hidden");
+        quizScreen.classList.add("hidden");
         return;
     }
 
@@ -66,6 +82,7 @@ displayQuestion = (questionId) => {
     for (let i = 0; i < currentQuestion.choices.length; i++) {
         const newLi = document.createElement('li');
         newLi.classList.add("choice-text");
+        newLi.classList.add("clickable");
         newLi.dataset.number = i + 1;
         newLi.innerText = currentQuestion.choices[i].choiceText;
 
@@ -101,18 +118,18 @@ displayQuestion = (questionId) => {
 
 updateLeftArrow = () => {
     if (currentQuestion.questionId <= 1) {
-        arrowLeft.classList.add("disabled-arrow");
+        arrowLeft.classList.add("arrow-disabled");
         return;
     }
-    arrowLeft.classList.remove("disabled-arrow");
+    arrowLeft.classList.remove("arrow-disabled");
 };
 
 updateRightArrow = () => {
     if (playerChoices[currentQuestion.questionId - 1] != 0) {
-        arrowRight.classList.remove("disabled-arrow");
+        arrowRight.classList.remove("arrow-disabled");
         return;  
     };
-    arrowRight.classList.add("disabled-arrow");
+    arrowRight.classList.add("arrow-disabled");
 };
 
 updateChoicesFrames = () => {
