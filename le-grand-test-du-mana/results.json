@@ -1,0 +1,130 @@
+{
+    "W": {
+        "title": "Mono-Blanc",
+        "text": "Vous vivez dans votre château au centre des plaines, entouré·e de vos amis les chevaliers et les oiseaux.  Vous êtes serein·ne et bienveillant·e, et vous ne tirez jamais dans le dos de vos adversaires. Enfin, quasiment jamais disons. Bravo."
+    },
+    "U": {
+        "title": "Mono-Bleu",
+        "text": "Vous vivez dans votre citadelle au centre de l'océan, entouré·e de vos créatures bizarres, sphinx, ondins et autres pirates fantômes. On vous appelle \"le cerveau\", vos plans complexes prennent en compte toutes les variables de ce plan d'existence, et des dix-sept les plus proches. Bravo."
+    },
+    "B": {
+        "title": "Mono-Noir",
+        "text": "Vous vivez dans votre palais au milieu des marais, entouré·e de vos régiments de zombies et de squelettes. Votre délire malsain à base de détruire les trucs vivants pour ensuite les ramener sous votre contrôle vous empêche de vous faire facilement des amis. Bravo."
+    },
+    "R": {
+        "title": "Mono-Rouge",
+        "text": "Vous vivez dans votre tour solitaire au milieu des montagnes, entouré·e de votre armée de gobelins et de quelques dragons. Votre caractère hyper-agressif se lit sur votre visage crispé, et sur vos dents taillées en pointes. Bravo."
+    },
+    "G": {
+        "title": "Mono-Vert",
+        "text": "Vous vivez dans votre repaire au milieu de la forêt, entouré·e de vos frères et sœurs elfes. Vous protégez votre territoire peuplé de dinosaures géants, et organisez des réunions pour optimiser la communication humains-arbres. Bravo."
+    },
+    "C": {
+        "title": "Incolore",
+        "text": "Vous n'êtes raccroché·e à aucune couleur. Le monde des vivants vous laisse de marbre, vous êtes plutôt une sorte de golem uniquement fasciné·e par les objets. Vous en avez sûrement plein, dans votre maison vide de toute présence humaine. J'imagine que si vous êtes content·e c'est ce qui compte. Bravo."
+    },
+    "WU": {
+        "title": "Blanc-Bleu (Azorius)",
+        "text": "Vous êtes un esprit brillant au service du bien. Certains de vos plans complexes impliqueront éventuellement le sacrifice de quelques individus, mais c'est toujours pour le mieux. POUR LE MIEUX!! Bravo."
+    },
+    "WB": {
+        "title": "Blanc-Noir (Orzhov)",
+        "text": "Partagé·e entre le bien et le mal, vous êtes sans doute un·e vampire à la morale de fer, ou, au contraire, un·e mage blanc·he corrompu·e par des idéaux malfaisants. À vous de me dire. En tout cas, la collocation avec vos pairs ne doit pas être facile. Bravo."
+    },
+    "WR": {
+        "title": "Blanc-Rouge (Boros)",
+        "text": "Vous êtes un·e guerrier·ère au service du bien, mais porté par une violente colère. Vos adversaires devront se méfier de votre agressivité frontale, mais n'auront pas à craindre des coups dans le dos. Bravo."
+    },
+    "WG": {
+        "title": "Blanc-Vert (Selesnya)",
+        "text": "Vous êtes le mélange de la bienveillance humaine et de l'amour de la nature. Cela ne signifie pas que vous vous laissez faire pour autant, mais vous vivez sûrement dans une belle communauté d'elfes, d'humains et de centaures dans un arbre maison où vous chantez des chansons sur le thème de la paix. Bravo."
+    },
+    "UB": {
+        "title": "Bleu-Noir (Dimir)",
+        "text": "Vous êtes malfaisant·e et cérébral·e. Votre génie est au service de votre machiavélisme, et dans votre tour d'ébène et de saphir vous prenez beaucoup de plaisir à empêcher tout le monde de s'amuser. Y a-t-il pire que vous? Vous pensez que non, et ça vous fait plaisir. Bravo."
+    },
+    "UR": {
+        "title": "Bleu-Rouge (Izzet)",
+        "text": "Vous êtes un·e sorcier·ère puissant·e et très intelligent·e, mais porté·e par une colère destructrice. La plupart de vos plans très astucieux commencent et terminent sans doute par une pluie de sortilèges de foudre vengeurs, et, au lointain, l'écho de votre rire délirant. Bravo."
+    },
+    "UG": {
+        "title": "Bleu-Vert (Simic)",
+        "text": "Magicien·ne mystique habitant dans des palais de lichen aquatique, vos machinations compliquées sont au service d'un amour définitif de la nature et de l'environnement. Quel délire! Bravo."
+    },
+    "BR": {
+        "title": "Noir-Rouge (Rakdos)",
+        "text": "Démon·ne des flammes à la puissance brutale, l'enfer vous a forgé·e. Votre fouet brûlant frappera tous vos ennemis, avant que vous ne les rameniez à la vie afin qu'ils se consument à votre service. Je sais pas si on peut dire que vous êtes \"gentil\". Bravo."
+    },
+    "BG": {
+        "title": "Noir-Vert (Golgari)",
+        "text": "Vous aimez tant la nature, que vous tuez pour elle. Votre tête coiffée de serpents vivants, vous faites pousser des plantes dans les cadavres de vos ennemis morts. Vous avez l'air d'être une personne qui va au bout de ses idées, en tout cas. Bravo."
+    },
+    "RG": {
+        "title": "Rouge-Vert (Gruul)",
+        "text": "Et bien vous êtes un mélange de colère agressive et de respect de la nature. Une sorte d'activiste écologique super vénère, ou quelque chose comme ça. Au point que vous êtes capable de lancer des boules de feu et d'invoquer des dinosaures pour détruire vos opposants. Bravo."
+    },
+    "WUB": {
+        "title": "Blanc-Bleu-Noir (Esper)",
+        "text": "Vous n'êtes pas seulement incroyablement intelligent·e, vous avez même dépassé le concept de bien et de mal. Sur votre trône multicolore vous envisagez l'univers avec malice, jouant avec les vivants et les morts comme des marionnettes sur un échiquier de marionnettes. Bravo."
+    },
+    "WUR": {
+        "title": "Blanc-Bleu-Rouge (Jeskaï)",
+        "text": "Votre grande intelligence et votre force brutale sont au service d'une fois en l'humanité indestructible. Vous êtes l'ultime défenseur·seuse de la justice, et si pour cela vous devez élaborer des plans complexes impliquant la mort de milliers d'individus considérés comme \"mauvais\" et bien... Bah. Bravo."
+    },
+    "WUG": {
+        "title": "Blanc-Bleu-Vert (Bant)",
+        "text": "Vous utilisez votre profonde intelligence afin de défendre tout ce qui est bon dans ce monde. Derrière votre bouclier vous protégerez tous les innocents, qu'ils vivent dans les villes, les forêts ou même sous l'eau. Par contre les gens qui ont le mauvais goût d'habiter en montagne, basta! Bravo."
+    },
+    "WBR": {
+        "title": "Blanc-Noir-Rouge (Mardu)",
+        "text": "On peut dire que vous avez une personnalité compliquée. A la fois bienveillant·e et malfaisant·e, et porté·e par une colère aveugle, j'imagine qu'il n'est pas exagéré de vous considérer comme un peu soupe-au-lait. Ce qui est sur c'est que vous ne rigolez sans doute pas beaucoup. Bravo."
+    },
+    "WBG": {
+        "title": "Blanc-Noir-Vert (Abzan)",
+        "text": "Vous êtes le.la guide ultime du monde naturel. Votre compréhension des concepts de vie et de mort vous permet de voir les cycles de l'univers comme un grand ballet magique dont personne n'est le centre. Et bien dites-donc! Bravo."
+    },
+    "WRG": {
+        "title": "Blanc-Rouge-Vert (Naya)",
+        "text": "Vous croyez fermement à la bonté humaine et à la beauté de la nature, et servez ces idéaux nobles en détruisant tout ce qui s'y oppose. Votre poing colérique s'abattra avec violence sur le crâne de ceux qui diront que le monde est mauvais!! Bravo."
+    },
+    "UBR": {
+        "title": "Bleu-Noir-Rouge (Grixis)",
+        "text": "Vous êtes non seulement diabolique et très intelligent·e, mais en plus, vous êtes tout le temps en colère. Votre brutalité cruelle s'effectue toujours avec malice, et sans autre idéologie que le plaisir d'entendre vos victimes hurler. Bravo."
+    },
+    "UBG": {
+        "title": "Bleu-Noir-Vert (Sultaï)",
+        "text": "Seigneur·e de la mort au mental d'acier, la nature est au service de vos plans diaboliques et géniaux. J'imagine que vos meilleures amies sont des sangsues aquatiques très intelligentes? Bravo."
+    },
+    "URG": {
+        "title": "Bleu-Rouge-Vert (Temur)",
+        "text": "Vous êtes un·e mage prodigieusement intelligent·e, à la tête d'une armée de monstres gigantesques, et à la grande puissance de feu. Le mélange de ces trois couleurs vous exclu du jeu du bien et du mal, vous êtes juste un·e seigneur·e de guerre inarrêtable. Bravo."
+    },
+    "BRG": {
+        "title": "Noir-Rouge-Vert (Jund)",
+        "text": "Sur votre immense dragon émeraude mort-vivant vous parcourez les plans afin de détruire définitivement tout ce qui porte atteinte à votre vision de la nature. Des plantes noirâtres poussent sur votre chemin brûlé, et elles dégagent certainement des spores empoisonnés. Bravo."
+    },
+    "WUBR": {
+        "title": "Blanc-Bleu-Noir-Rouge (Yore)",
+        "text": "Vous haïssez la nature!! Que vos alliés soient morts ou vivants, bêtes ou géniaux, calmes ou colériques n'a aucune importance, vous allez raser toutes les forêts de l'univers, et tout le monde vivra dans un merveilleux monde de pierre et de métal. Bravo."
+    },
+    "WUBG": {
+        "title": "Blanc-Bleu-Noir-Vert (Witch)",
+        "text": "Cette combinaison de couleurs rend votre objectif de vie assez difficile à cerner, mais ce qui est sur c'est que vous n'allez de toutes façons pas vous y rendre en courant. Vous êtes posé·e, intelligent·e et vous avez toutes les armes nécessaires pour arriver à vos fins. Par ailleurs, vous êtes surpuissant·e. Bravo."
+    },
+    "WURG": {
+        "title": "Blanc-Bleu-Rouge-Vert (Ink)",
+        "text": "Vous avez assimilé toutes les puissances disponibles pour vous opposer farouchement à la mort ! Vous représentez tous les royaumes du vivant, quelque soit leur origine afin de faire face à l'inéluctable fléau. Mais l'immortalité, est-ce une bénédiction ? Je vous laisse y réfléchir. Bravo."
+    },
+    "WBRG": {
+        "title": "Blanc-Noir-Rouge-Vert (Dune)",
+        "text": "Vous n'êtes sans doute pas le·la plus intelligent·e des magicien·ne·s mais votre puissance défie même celle des dieux! L'alliance de toutes ces couleurs fait de vous un·e sorcier·ère aux pouvoirs délirants, plus qu'à bétonner tous les océans et votre règne devrait être définitif. Bravo."
+    },
+    "UBRG": {
+        "title": "Bleu-Noir-Rouge-Vert (Glint)",
+        "text": "Vous maîtrisez toutes les forces de l'univers, mais êtes vraiment opaque au concept de bienveillance. Vous êtes comme qui dirait une sorte de demi-dieu·éesse très très malfaisant·e. Vos ennemis (les gentils) ont du tracas à se faire. Bravo."
+    },
+    "WUBRG": {
+        "title": "Blanc-Bleu-Noir-Rouge-Vert (WUBRG)",
+        "text": "Vous avez toutes les couleurs à égalité!! Wahou!! Cela vous rend aussi extrême que fragile. Mais surtout, vous êtes vraiment \"très spécial·e\". On vous adore. Bravo."
+    }
+}

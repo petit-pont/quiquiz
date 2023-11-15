@@ -11,9 +11,29 @@
 <body>
     <navbar-component></navbar-component>
     <div id="main-view">
-        <h1>Le Grand Test du Mana</h1>
-
-        <a href="quiz.html">commencer</a>
+        <div id="loading-screen">
+            <div>
+                <img id="floating-wizard-loader" src="assets/images/wizard-floating.png" alt="floating-wizard">
+            </div>
+        </div>
+        <div id="result-screen" class="hidden">
+            <div>
+                <div id="mana-symbols">
+                    <img id="mana-white" src="assets/images/white.png" alt="white-mana">
+                    <img id="mana-blue" src="assets/images/blue.png" alt="blue-mana">
+                    <img id="mana-black" src="assets/images/black.png" alt="black-mana">
+                    <img id="mana-red" src="assets/images/red.png" alt="red-mana">
+                    <img id="mana-green" src="assets/images/green.png" alt="green-mana">
+                    <img id="mana-colorless" src="assets/images/colorless.png" class="hidden" alt="colorless-mana">
+                </div>
+                <div id="result-title">
+                    Result-Result-Result-Result-Result (Result)
+                </div>
+                <div id="result-text" class="scroll-frame">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, et quos neque dolores odio omnis veniam error quia quisquam cumque natus corporis, ut quibusdam! Inventore sunt cupiditate quia debitis accusantium.
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="results.js"></script>
