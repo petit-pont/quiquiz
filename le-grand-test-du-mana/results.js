@@ -1,126 +1,109 @@
-const loadingScreen = document.getElementById("loading-screen");
-const resultScreen = document.getElementById("result-screen");
-const resultTitle = document.getElementById("result-title");
-const resultText = document.getElementById("result-text");
-const manaSymbolWhite = document.getElementById("mana-white");
-const manaSymbolBlue = document.getElementById("mana-blue");
-const manaSymbolBlack = document.getElementById("mana-black");
-const manaSymbolRed = document.getElementById("mana-red");
-const manaSymbolGreen = document.getElementById("mana-green");
-const manaSymbolColorless = document.getElementById("mana-colorless");
+const loadingScreen = document.getElementById('loading-screen');
+const resultScreen = document.getElementById('result-screen');
+const resultTitle = document.getElementById('result-title');
+const resultText = document.getElementById('result-text');
+const manaSymbolWhite = document.getElementById('mana-white');
+const manaSymbolBlue = document.getElementById('mana-blue');
+const manaSymbolBlack = document.getElementById('mana-black');
+const manaSymbolRed = document.getElementById('mana-red');
+const manaSymbolGreen = document.getElementById('mana-green');
+const manaSymbolColorless = document.getElementById('mana-colorless');
 
-let colors = [
-    {
-        name: "white",
-        code: 'W',
-        total: 0
-    },
-    {
-        name: "blue",
-        code: 'U',
-        total: 0
-    },
-    {
-        name: "black",
-        code: 'B',
-        total: 0
-    },
-    {
-        name: "red",
-        code: 'R',
-        total: 0
-    },
-    {
-        name: "green",
-        code: 'G',
-        total: 0
-    },
-    {
-        name: "colorless",
-        code: 'C',
-        total: 0
-    }
-]
+// The 6 categories we are assessing in the test. The object contains the total of points earned in that category with the choices made by the player.
+const white = new Category('W');
+const blue = new Category('U');
+const black = new Category('B');
+const red = new Category('R');
+const green = new Category('G');
+const colorless = new Category('C');
+
+// Put them in an array to be able to easily loop through and find the dominant ones.
+const colors = [white, blue, black, red, green, colorless];
 
 let questions = [];
 let results;
 let playerChoices = [];
 
-
-// Mocked choices for testing
-// mockChoices = [1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1, 2, 3, 4, 5, 6, 5, 4, 3, 2]
-// mockChoices = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+// Mock choices for tests
+// let mockChoices = [1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1, 2, 3, 4, 5, 6, 5, 4, 3, 2];
+// let mockChoices = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3];
+// let mockChoices = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 // localStorage.setItem("mana-quiz-choices", JSON.stringify(mockChoices));
+    
 
 calculateResult();
 
+// Synchronized sequence to load resources, calculate totals from the player choices and display the final results.
+async function calculateResult() {
+    questions = await loadResources('questions.json');
+    results = await loadResources('results.json');
+    playerChoices = JSON.parse(localStorage.getItem('mana-quiz-choices'));
+    // TODO: catch case where player choices can't be found or is corrupted.
 
+    // console.log(questions);
+    // console.log(results);
+    // console.log(playerChoices);
+    
+    // Calculates total for each color.
+    for (let i = 0; i < questions.length; i++) {
+        white.total += questions[i].choices[playerChoices[i] - 1].whiteValue;
+        blue.total += questions[i].choices[playerChoices[i] - 1].blueValue;
+        black.total += questions[i].choices[playerChoices[i] - 1].blackValue;
+        red.total += questions[i].choices[playerChoices[i] - 1].redValue;
+        green.total += questions[i].choices[playerChoices[i] - 1].greenValue;
+        colorless.total += questions[i].choices[playerChoices[i] - 1].colorlessValue;
+    }
+    
+    // console.log('white total: ', white.total);
+    // console.log('blue total: ', blue.total);
+    // console.log('black total: ', black.total);
+    // console.log('red total: ', red.total);
+    // console.log('green total: ', green.total);
+    // console.log('colorless total: ', colorless.total);
+    
+    const resultCode = findDominantCategories(colors);
+    displayResult(resultCode);
+}
+
+// Used to load the objects stored in .jsons 
 async function loadResources(url) {
     const request = await fetch(url);
     const response = await request.json();
     return response;
 }
 
-async function calculateResult() {
-    questions = await loadResources("questions.json");
-    results = await loadResources("results.json");
-    console.log(questions);
-    console.log(results);
-    playerChoices = JSON.parse(localStorage.getItem("mana-quiz-choices"));
-    console.log(playerChoices);
+// Creates a code representing the dominant colors in the chosen answers. The code is used to display the correct result text from results.json.
+function findDominantCategories(categories) {
+    let resultCode = '';
+    let highestCategoryTotal = 0;
 
-    // Calculates total for each color.
-    for (let i = 0; i < playerChoices.length; i++) {
-        colors[0].total += questions[i].choices[playerChoices[i] - 1].whiteValue;
-        colors[1].total += questions[i].choices[playerChoices[i] - 1].blueValue;
-        colors[2].total += questions[i].choices[playerChoices[i] - 1].blackValue;
-        colors[3].total += questions[i].choices[playerChoices[i] - 1].redValue;
-        colors[4].total += questions[i].choices[playerChoices[i] - 1].greenValue;
-        colors[5].total += questions[i].choices[playerChoices[i] - 1].colorlessValue;
-    }
-
-    console.log("white total: " + colors[0].total);
-    console.log("blue total: " + colors[1].total);
-    console.log("black total: " + colors[2].total);
-    console.log("red total: " + colors[3].total);
-    console.log("green total: " + colors[4].total);
-    console.log("colorless total: " + colors[5].total);
-
-    const resultCode = findDominantColors();
-    displayResult(resultCode);
-}
-
-function findDominantColors() {
-    let resultCode = "";
-    let n = 0; // the current dominant color total value;
-
-    for (let i = 0; i < colors.length; i++) {
-        if (colors[i].total === n) {
-            resultCode += colors[i].code;
+    for (let i = 0; i < categories.length; i++) {
+        if (categories[i].total === highestCategoryTotal) {
+            resultCode += categories[i].code;
         }
-        if (colors[i].total > n) {
-            resultCode = colors[i].code;
-            n = colors[i].total;
+        if (categories[i].total > highestCategoryTotal) {
+            resultCode = categories[i].code;
+            highestCategoryTotal = categories[i].total;
         }
     }
     
-    // remove 'C' from the code if it's not mono-colorless.
+    // Remove 'C' from the code if it's not mono-colorless.
     if (resultCode.length > 1 && resultCode.includes('C')) {
         resultCode = resultCode.replace('C', '');
     }
 
-    console.log("result code: " + resultCode);
+    // console.log('result code: ' + resultCode);
     return resultCode;
 }
 
 function displayResult(code) {
-    // Mana symbols
-    if (!code.includes('W')) manaSymbolWhite.classList.add("hidden");
-    if (!code.includes('U')) manaSymbolBlue.classList.add("hidden");
-    if (!code.includes('B')) manaSymbolBlack.classList.add("hidden");
-    if (!code.includes('R')) manaSymbolRed.classList.add("hidden");
-    if (!code.includes('G')) manaSymbolGreen.classList.add("hidden");
-    if (!code.includes('C')) manaSymbolColorless.classList.add("hidden");
+    // Hide mana symbols that are not present in the code
+    if (!code.includes('W')) manaSymbolWhite.classList.add('hidden');
+    if (!code.includes('U')) manaSymbolBlue.classList.add('hidden');
+    if (!code.includes('B')) manaSymbolBlack.classList.add('hidden');
+    if (!code.includes('R')) manaSymbolRed.classList.add('hidden');
+    if (!code.includes('G')) manaSymbolGreen.classList.add('hidden');
+    if (!code.includes('C')) manaSymbolColorless.classList.add('hidden');
 
     // Result Title
     resultTitle.innerText = results[code].title;
@@ -128,7 +111,18 @@ function displayResult(code) {
     // Result Text
     resultText.innerText = results[code].text;
 
-    loadingScreen.classList.add("hidden");
-    resultScreen.classList.remove("hidden");
+    loadingScreen.classList.add('hidden');
+    resultScreen.classList.remove('hidden');
 }
 
+// Constructor for the category objects where the total of points for each of these are tallied.
+function Category(code) {
+    const categoryCode = code;
+    this.total = 0;
+
+    Object.defineProperty(this, 'code', {
+        get: function() {
+            return categoryCode;
+        }
+    });
+}
