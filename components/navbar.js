@@ -44,7 +44,7 @@ class Navbar extends HTMLElement {
                 <ul>
                     <li><a id="quiquiz" href="https://petit-pont.github.io/quiquiz/index.html">Quiquiz</a></li>
                     <li class="spacer"></li>
-                    <li><a href="https://petit-pont.github.io/quiquiz/about.html">À propos</a></li>
+                    <!-- <li><a href="https://petit-pont.github.io/quiquiz/about.html">À propos</a></li> -->
                 </ul>
             </nav>
         `;
