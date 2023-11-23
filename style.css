@@ -1,5 +1,6 @@
 :root {
     --navbar-height: 3rem;
+    --color-highlight: salmon;
 }
 
 * {
@@ -18,7 +19,7 @@ html {
 body {
     width: 100%;
     height: 100%;
-    background-color: rgb(255, 184, 184);
+    background-color: rgb(198, 223, 162);
     overflow: hidden;
 }
 
@@ -43,10 +44,44 @@ navbar-component {
     background-color: white;
 }
 
+h1 {
+    margin: 2rem 1rem 0 1rem;
+}
 .hidden {
     display: none;
 }
 
 .clickable:hover {
 cursor: pointer;
+}
+
+#tests-list {
+    margin: 5rem 1rem;
+    display: flex;
+}
+
+.quiz-card {
+    display: flex;
+    border-radius: 2rem;
+    box-shadow: 0.25rem 0.25rem .5rem rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+#le-grand-test-du-mana {
+    padding-left: 0.5rem;
+}
+
+.quiz-icon {
+    display: block;
+    flex-shrink: 1;
+    width: 7rem;
+    height: 7rem;
+}
+
+.author-name {
+    color: var(--color-highlight);
+}
+
+.test-description {
+    padding-left: 1rem;
 }

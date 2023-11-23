@@ -10,12 +10,21 @@
 <body>
     <navbar-component></navbar-component>
     <div id="main-view">
-        <h1>Bienvenue sur Quiquiz !</h1>
+
+        <h1>Bienvenue sur Quiquiz !</h1>
         <h2>Choisissez un test</h2>
         
-        <ul>
-            <li><a href="le-grand-test-du-mana/home.html">Le Grand Test du Mana</a></li>
+        <ul id="tests-list">
+            <li id="le-grand-test-du-mana" class="quiz-card clickable">
+                <img class="quiz-icon" src="le-grand-test-du-mana/assets/images/icon-quiz.png" alt="Icon">
+                <div>
+                    <h4>Le Grand Test du Mana</h4>
+                    <p>par <a class="author-name" href="https://twitter.com/MortisGhost">Mortis Ghost</a></p>
+                    <p class="test-description">Prenez enfin connaissance de la ou des couleurs de votre Mana !</p>
+                </div>
+            </li>
         </ul>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
