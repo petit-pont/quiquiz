@@ -11,12 +11,12 @@
 <body>
     <navbar-component></navbar-component>
     <div id="main-view">
-        <div id="loading-screen">
+        <div id="loading-screen" class="fullscreen">
             <div>
-                <img id="floating-wizard-loader" src="assets/images/wizard-floating.png" alt="floating-wizard">
+                <img id="floating-wizard-loader" class="floating-wizard" src="assets/images/wizard-floating.png" alt="floating-wizard">
             </div>
         </div>
-        <div id="quiz-screen" class="hidden">
+        <div id="quiz-screen" class="fullscreen hidden">
             <div id="quiz">
                 <div id="container-question">
                     <div id="container-question-count">
@@ -44,17 +44,17 @@
                 </ul>
             </div>
         </div>
-        <div id="confirm-screen" class="hidden">
+        <div id="confirm-screen" class="fullscreen hidden">
             <div id="confirm-screen-layout">
                 <div id="arrow-and-message">
                     <div id="arrow-back" class="arrow arrow-left clickable"></div>
                     <div id="confirm-message" class="scroll-frame">
-                        <p>Félicitations! Vous avez répondu à toutes les questions! Vous êtes enfin prêt·e à connaître votre Mana. Mais peut-être n'êtes-vous pas sûr·e-sûr·e de vos réponses? Vous pouvez encore retourner en arrière (grâce à la flèche en haut à gauche) pour les rectifier si vous le souhaitez...</p>
+                        <p>Félicitations ! Vous avez répondu à toutes les questions ! Vous êtes enfin prêt·e à connaître votre Mana. Mais peut-être n'êtes-vous pas sûr·e-sûr·e de vos réponses ? Vous pouvez encore retourner en arrière (grâce à la flèche en haut à gauche) pour les rectifier si vous le souhaitez...</p>
                     </div>
                 </div>
-                <img id="floating-wizard-confirm" src="assets/images/wizard-floating.png" alt="floating-wizard">
+                <img id="floating-wizard-confirm" class="floating-wizard" src="assets/images/wizard-floating.png" alt="floating-wizard">
                 <div id="confirm-button" class="choice-text clickable">
-                    <p>C'est bon, j'ai répondu sincèrement, en suivant mon cœur, à chacune de vos questions! Je suis prêt·e, mes liens avec la Terre, les Humains et le Cosmos sont grands ouverts. Révélez-moi mon Mana!</p>
+                    <p>C'est bon, j'ai répondu sincèrement, en suivant mon cœur, à chacune de vos questions ! Je suis prêt·e, mes liens avec la Terre, les Humains et le Cosmos sont grands ouverts. Révélez-moi mon Mana !</p>
                 </div>
             </div>
         </div>

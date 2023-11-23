@@ -11,11 +11,58 @@
 <body>
     <navbar-component></navbar-component>
     <div id="main-view">
-        <h1>Le Grand Test du Mana</h1>
-
-        <a href="quiz.html">commencer</a>
+        <section id="start-page" class="fullscreen">
+            <img src="assets/images/title.png" alt="Le Grand Test du Mana">
+            <div id="floating-wizard-container">
+                <img id="floating-wizard-home" class="floating-wizard" src="assets/images/wizard-floating.png" alt="floating-wizard">
+            </div>
+            <button type="button" id="btn-start" class="choice-text clickable">Commencer le test, pardi !</button>
+            <button type="button" id="btn-credits" class="choice-text clickable">Qui c'est qu'a fait ça ?</button>
+        </section>
+        
+        <section id="credits" class="hidden">
+            <div id="credits-layout">
+                <ul id="authors" class="scroll-frame">
+                    <li class="author">
+                        <div class="portrait">
+                            <img src="assets/images/portrait-mortis.png" alt="portrait-mortis">
+                        </div>
+                        <div>
+                            <p class="credits-name">Mortis Ghost</p>
+                            <p>Concept, écriture et illustrations</p>
+                            <div class="socials">
+                                <a href="https://twitter.com/MortisGhost">
+                                    <img class="social-icon" src="assets/images/icon-twitter.png" alt="twitter-icon">
+                                </a>
+                                <a href="https://www.instagram.com/mortisghost666">
+                                    <img class="social-icon" src="assets/images/icon-instagram.png" alt="instagram-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="author">
+                        <div class="portrait">
+                            <img src="assets/images/portrait-max.png" alt="portrait-max">
+                        </div>
+                        <div>
+                            <p class="credits-name">Max Dolmans</p>
+                            <p>Développement et écriture additionnelle</p>
+                            <div class="socials">
+                                <a href="https://twitter.com/MaxDolmans">
+                                    <img class="social-icon" src="assets/images/icon-twitter.png" alt="twitter-icon">
+                                </a>
+                                <a href="https://www.instagram.com/MaxDolmans">
+                                    <img class="social-icon" src="assets/images/icon-instagram.png" alt="instagram-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button type="button" id="btn-credits-close" class="choice-text clickable">Ah bon, d'accord...</button>
+            </div>
+        </section>
     </div>
 
-    <script src="script.js"></script>
+    <script src="home.js"></script>
 </body>
 </html>
