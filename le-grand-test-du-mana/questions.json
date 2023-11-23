@@ -91,7 +91,7 @@
             },
             {
                 "choiceId": 3,
-                "choiceText": "Où se trouvent les trucs magiques et les artefacts maudits?",
+                "choiceText": "Où se trouvent les trucs magiques et les artefacts maudits ?",
                 "whiteValue": 0,
                 "blueValue": 1,
                 "blackValue": 0,
@@ -111,7 +111,7 @@
             },
             {
                 "choiceId": 5,
-                "choiceText": "Il parait qu'il y a des momies dans l'aile de l’Égypte ancienne!",
+                "choiceText": "Il parait qu'il y a des momies dans l'aile de l’Égypte ancienne !",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 1,
@@ -147,7 +147,7 @@
             },
             {
                 "choiceId": 2,
-                "choiceText": "Vous êtes vert·e de rage! ARRGGGGGH!!",
+                "choiceText": "Vous êtes vert·e de rage ! ARRGGGGGH !!",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -157,7 +157,7 @@
             },
             {
                 "choiceId": 3,
-                "choiceText": "Sept cents ans enfermé·e à la maison?? PFFF, la barbe!!",
+                "choiceText": "Sept cents ans enfermé·e à la maison ?? PFFF, la barbe !!",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 1,
@@ -265,7 +265,7 @@
     },
     {
         "questionId": 5,
-        "questionText": "Lors d'un concours vous avez gagné le droit de remplir votre caddie de supermarché des objets de votre choix et de sortir sans payer. Mais vous n'avez que dix minutes!! Vers quel rayon vous dirigez-vous?",
+        "questionText": "Lors d'un concours vous avez gagné le droit de remplir votre caddie de supermarché des objets de votre choix et de sortir sans payer. Mais vous n'avez que dix minutes !! Vers quel rayon vous dirigez-vous ?",
         "choices": [
             {
                 "choiceId": 1,
@@ -331,7 +331,7 @@
     },
     {
         "questionId": 6,
-        "questionText": "Dans le seigneur des anneaux vous êtes plutôt :",
+        "questionText": "Dans le seigneur des anneaux vous êtes plutôt :",
         "choices": [
             {
                 "choiceId": 1,
@@ -397,7 +397,7 @@
     },
     {
         "questionId": 7,
-        "questionText": "Avec votre superbe époux·se vous planifiez vos prochaines vacances de cinq semaines :",
+        "questionText": "Avec votre superbe époux·se vous planifiez vos prochaines vacances de cinq semaines :",
         "choices": [
             {
                 "choiceId": 1,
@@ -411,7 +411,7 @@
             },
             {
                 "choiceId": 2,
-                "choiceText": "Des randonnées dans un volcan en activité. Vous voulez toucher la lave!!",
+                "choiceText": "Des randonnées dans un volcan en activité. Vous voulez toucher la lave !!",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -421,7 +421,7 @@
             },
             {
                 "choiceId": 3,
-                "choiceText": "Le concours du plus beau château de sable de Knokke-le-Zoute. Le votre sera EXTRÊME!",
+                "choiceText": "Le concours du plus beau château de sable de Knokke-le-Zoute. Le votre sera EXTRÊME !",
                 "whiteValue": 0,
                 "blueValue": 1,
                 "blackValue": 0,
@@ -451,7 +451,7 @@
             },
             {
                 "choiceId": 6,
-                "choiceText": "Retourner à votre résidence secondaire à la campagne, goûter au charme rustique des paysans, manger du fromage blanc, fumer la pipe, dormir paisiblement près du lac, faire quelques parties de chasse avec Fido, votre épagneul tibétain... Enfin bon, simplement souffler un peu quoi!",
+                "choiceText": "Retourner à votre résidence secondaire à la campagne, goûter au charme rustique des paysans, manger du fromage blanc, fumer la pipe, dormir paisiblement près du lac, faire quelques parties de chasse avec Fido, votre épagneul tibétain... Enfin bon, simplement souffler un peu quoi !",
                 "whiteValue": 1,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -467,7 +467,7 @@
         "choices": [
             {
                 "choiceId": 1,
-                "choiceText": "C'est très sincère, l'entraide nous permettra de mieux vivre ensemble!!",
+                "choiceText": "C'est très sincère, l'entraide nous permettra de mieux vivre ensemble !!",
                 "whiteValue": 1,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -477,7 +477,7 @@
             },
             {
                 "choiceId": 2,
-                "choiceText": "Vos fidèles sont immortels, le sang coulera pour Condra la déesse-cheval!!",
+                "choiceText": "Vos fidèles sont immortels, le sang coulera pour Condra la déesse-cheval !!",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 1,
@@ -487,7 +487,7 @@
             },
             {
                 "choiceId": 3,
-                "choiceText": "Vous passez beaucoup de temps à écouter Bob Marley et à \"recentrer vos énergies\"!!",
+                "choiceText": "Vous passez beaucoup de temps à écouter Bob Marley et à \"recentrer vos énergies\" !!",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -497,7 +497,7 @@
             },
             {
                 "choiceId": 4,
-                "choiceText": "Chacun de vos sbires a la même valeur : Ils sont à votre service éternel!!",
+                "choiceText": "Chacun de vos sbires a la même valeur : Ils sont à votre service éternel !!",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -507,7 +507,7 @@
             },
             {
                 "choiceId": 5,
-                "choiceText": "Personne ne comprend votre charabia, et c'est pour ça qu'on vous adule!!",
+                "choiceText": "Personne ne comprend votre charabia, et c'est pour ça qu'on vous adule !!",
                 "whiteValue": 0,
                 "blueValue": 1,
                 "blackValue": 0,
@@ -543,7 +543,7 @@
             },
             {
                 "choiceId": 2,
-                "choiceText": "Vous détestez la guerre!!!! ARGGGHHH!!!",
+                "choiceText": "Vous détestez la guerre !!!! ARGGGHHH !!!",
                 "whiteValue": 1,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -573,7 +573,7 @@
             },
             {
                 "choiceId": 5,
-                "choiceText": "L'odeur du sang brûlé éveille en vous un irrésistible désir... À nouveau!",
+                "choiceText": "L'odeur du sang brûlé éveille en vous un irrésistible désir... À nouveau !",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 1,
@@ -675,7 +675,7 @@
             },
             {
                 "choiceId": 2,
-                "choiceText": "Il n'y aura aucune preuve!! Vous allez simplement détruire l'intégralité du corps.",
+                "choiceText": "Il n'y aura aucune preuve !! Vous allez simplement détruire l'intégralité du corps.",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -715,7 +715,7 @@
             },
             {
                 "choiceId": 6,
-                "choiceText": "Votre plan est limpide : accrocher un fil à chaque membre du corps, et à l'aide d'un ingénieux système de poulies et d'un simple enregistreur, il n'y aura simplement pas eu de mort cette nuit...",
+                "choiceText": "Votre plan est limpide : accrocher un fil à chaque membre du corps, et à l'aide d'un ingénieux système de poulies et d'un simple enregistreur, il n'y aura simplement pas eu de mort cette nuit...",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 1,
@@ -727,7 +727,7 @@
     },
     {
         "questionId": 12,
-        "questionText": "Vous avez choisi l'option \"expression corporelle\" au lycée. Quel est votre rôle dans le spectacle de fin d'année?",
+        "questionText": "Vous avez choisi l'option \"expression corporelle\" au lycée. Quel est votre rôle dans le spectacle de fin d'année ?",
         "choices": [
             {
                 "choiceId": 1,
@@ -827,7 +827,7 @@
             },
             {
                 "choiceId": 4,
-                "choiceText": "Vous détestez attendre!! Vous tirez au laser sur tous les autres vaisseaux.",
+                "choiceText": "Vous détestez attendre !! Vous tirez au laser sur tous les autres vaisseaux.",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -859,11 +859,11 @@
     },
     {
         "questionId": 14,
-        "questionText": "C'est l'heure de manger!!",
+        "questionText": "C'est l'heure de manger !!",
         "choices": [
             {
                 "choiceId": 1,
-                "choiceText": "ENFIN!!",
+                "choiceText": "ENFIN !!",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -991,7 +991,7 @@
     },
     {
         "questionId": 16,
-        "questionText": "Quelle est la couleur de votre voiture?",
+        "questionText": "Quelle est la couleur de votre voiture ?",
         "choices": [
             {
                 "choiceId": 1,
@@ -1057,11 +1057,11 @@
     },
     {
         "questionId": 17,
-        "questionText": "Votre florissante startup agro-alimentaire lance un nouveau Soda, mais lequel?",
+        "questionText": "Votre florissante startup agro-alimentaire lance un nouveau Soda, mais lequel ?",
         "choices": [
             {
                 "choiceId": 1,
-                "choiceText": "Fuzz-de-Wizz, \"ça pétille et ça croustille!\"",
+                "choiceText": "Fuzz-de-Wizz, \"ça pétille et ça croustille !\"",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -1081,7 +1081,7 @@
             },
             {
                 "choiceId": 3,
-                "choiceText": "Mysterio, \"la boisson des curieux et des curieuses!\"",
+                "choiceText": "Mysterio, \"la boisson des curieux et des curieuses !\"",
                 "whiteValue": 0,
                 "blueValue": 1,
                 "blackValue": 0,
@@ -1091,7 +1091,7 @@
             },
             {
                 "choiceId": 4,
-                "choiceText": "FLY'Z, \"envolez vous vers la nouvelle génération de sodas!\"",
+                "choiceText": "FLY'Z, \"envolez vous vers la nouvelle génération de sodas !\"",
                 "whiteValue": 1,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -1123,7 +1123,7 @@
     },
     {
         "questionId": 18,
-        "questionText": "Quel est le pire fléau?",
+        "questionText": "Quel est le pire fléau ?",
         "choices": [
             {
                 "choiceId": 1,
@@ -1177,7 +1177,7 @@
             },
             {
                 "choiceId": 6,
-                "choiceText": "ILS ONT CHANGÉ L'HEURE DE MA SÉRIE À LA TÉLÉVISION!! DU COUP J'AI RATÉ LES CINQ PREMIÈRES MINUTES ET JE NE SAIS PAS POURQUOI NATACHA EN VEUT À FREDERICO!! ET TOUT CELA ALORS QU'ILS AVAIENT PRÉVUS DE VIVRE ENSEMBLE DANS LEUR VILLA À LA CÔTE!! C'EST DE NOUVEAU LEUR NEVEU MATT QUI VA DEVOIR S'OCCUPER TEMPORAIREMENT DE L'ENTREPRISE FAMILIALE!! ÇA ME REND DINGUE!! ÇA ME REND DIIIIIIIINGUUUEEE!!! ARGRGGGGHHHH!!!!!!!!!!!!!!!!!!!!!",
+                "choiceText": "ILS ONT CHANGÉ L'HEURE DE MA SÉRIE À LA TÉLÉVISION !! DU COUP J'AI RATÉ LES CINQ PREMIÈRES MINUTES ET JE NE SAIS PAS POURQUOI NATACHA EN VEUT À FREDERICO !! ET TOUT CELA ALORS QU'ILS AVAIENT PRÉVUS DE VIVRE ENSEMBLE DANS LEUR VILLA À LA CÔTE !! C'EST DE NOUVEAU LEUR NEVEU MATT QUI VA DEVOIR S'OCCUPER TEMPORAIREMENT DE L'ENTREPRISE FAMILIALE !! ÇA ME REND DINGUE !! ÇA ME REND DIIIIIIIINGUUUEEE !!! ARGRGGGGHHHH !!!!!!!!!!!!!!!!!!!!!",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -1189,7 +1189,7 @@
     },
     {
         "questionId": 19,
-        "questionText": "Votre signe astrologique please?",
+        "questionText": "Votre signe astrologique please ?",
         "choices": [
             {
                 "choiceId": 1,
@@ -1255,11 +1255,11 @@
     },
     {
         "questionId": 20,
-        "questionText": "Dernière question : Vous voyagez de nuit dans votre carrosse. Soudain, votre cocher fait s'arrêter le véhicule. C'est une embuscade!! Vous paniquez complètement, les brigands risquent de trouver votre fabuleux trésor, caché sous votre siège.",
+        "questionText": "Dernière question : Vous voyagez de nuit dans votre carrosse. Soudain, votre cocher fait s'arrêter le véhicule. C'est une embuscade !! Vous paniquez complètement, les brigands risquent de trouver votre fabuleux trésor, caché sous votre siège.",
         "choices": [
             {
                 "choiceId": 1,
-                "choiceText": "Vous poignardez votre cocher avec votre mini-dague. Peut-être les voleurs vous prendront-ils pour l'un des leurs?",
+                "choiceText": "Vous poignardez votre cocher avec votre mini-dague. Peut-être les voleurs vous prendront-ils pour l'un des leurs ?",
                 "whiteValue": 0,
                 "blueValue": 0,
                 "blackValue": 1,
@@ -1269,7 +1269,7 @@
             },
             {
                 "choiceId": 2,
-                "choiceText": "Vous soupirez et haussez les épaules en souriant. Ce n'est que de l'argent! Une flèche vous transperce ensuite.",
+                "choiceText": "Vous soupirez et haussez les épaules en souriant. Ce n'est que de l'argent ! Une flèche vous transperce ensuite.",
                 "whiteValue": 1,
                 "blueValue": 0,
                 "blackValue": 0,
@@ -1279,7 +1279,7 @@
             },
             {
                 "choiceId": 3,
-                "choiceText": "Vous mangez le trésor. Il ne sera pour personne!! Cela vous fait transpirer.",
+                "choiceText": "Vous mangez le trésor. Il ne sera pour personne !! Cela vous fait transpirer.",
                 "whiteValue": 0,
                 "blueValue": 1,
                 "blackValue": 0,
