@@ -78,6 +78,10 @@ cursor: pointer;
     height: 7rem;
 }
 
+.test-title {
+    font-size: 1.25rem;
+}
+
 .author-name {
     color: var(--color-highlight);
 }
